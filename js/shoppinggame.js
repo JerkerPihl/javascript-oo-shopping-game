@@ -7,18 +7,18 @@ const items = 0;
 
 // Define the player object here
 let player = {
-  name,
-  score,
-  items,
-  getCurrentScore() {
-    return this.score;
-  },
-  addPoints(points) {
-    this.score = this.score + points;
-  },
-  deductPoints(points) {
-    this.score = this.score - points;
-  },
+    name,
+    score,
+    items,
+    getCurrentScore() {
+        return this.score;
+    },
+    addPoints(points) {
+        this.score = this.score + points;
+    },
+    deductPoints(points) {
+        this.score = this.score - points;
+    }
 };
 
 // Define the Product class - write the Constructor function for Product class here
