@@ -82,6 +82,7 @@ const loadProducts = (map, prodId) => {
     try {
         // Call Object.keys() to load the property names of the Product object in to prodKeys array here
         let prodKeys = [];
+        prodKeys=Object.keys(Product.name);
 
         let iterator_obj = map.entries();
 
