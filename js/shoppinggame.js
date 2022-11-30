@@ -75,9 +75,9 @@ class Rating {
             this.rate = "BAD";
         }
     }
+    // Complete the loadProducts function
+    const loadProducts = (map, prodId) => {
 }
-// Complete the loadProducts function
-const loadProducts = (map, prodId) => {
     let a = new Array();
     try {
         // Call Object.keys() to load the property names of the Product object in to prodKeys array here
@@ -216,7 +216,9 @@ function loadMasterData() {
 }
 
 // Complete this function
-const findProductById = (id) => {};
+const findProductById = (id) => {
+return pro[id];
+};
 
 // Complete this function
 const generateProductId = () => {};
